@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  <app-name>:
+    image: ghcr.io/gve-sw/<repo-name>:latest
+    container_name: <app-name>
+    environment:
+      - <ENV VARIABLE NAME>=<VALUE>
+    volumes:
+      - config.yaml:/app/config.yaml
+    restart: "always"
