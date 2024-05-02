@@ -1,0 +1,3 @@
+comment,policy,protocol,destPort,destCidr,srcPort,srcCidr
+Deny them all!,deny,tcp,443,bad_fqdns,any,any
+Allow One,allow,tcp,443,Test 2,any,any

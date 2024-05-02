@@ -1,0 +1,3 @@
+name,category,type,fqdn,_group_name
+Test 1,network,fqdn,example.com,good_fqdns
+Test 2,network,fqdn,bad.com,bad_fqdns
